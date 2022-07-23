@@ -1,6 +1,6 @@
 {
   "name": "url-demon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "exports": "./index.js",
   "license": "MIT",
   "type": "module",
@@ -16,5 +16,6 @@
   },
   "dependencies": {
     "url-demon": "^1.0.0"
-  }
+  },
+	"repository": "darkdarcool/url-demon"
 }
