@@ -17,8 +17,3 @@ test("It gets the protocol", t => {
 	let urldemon = new UrlDemon("https://google.com");
 	t.is(urldemon.getProtocol(), "https");
 });
-
-test("It gets the paths", t => {
-	let urldemon = new UrlDemon("https://google.com/search?q=javascript");
-	t.deepEqual(urldemon.getPaths(), ["search", "q=javascript"]);
-});
